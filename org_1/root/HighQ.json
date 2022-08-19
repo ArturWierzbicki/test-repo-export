@@ -1,7 +1,7 @@
 {
   "title": "HighQ",
   "tags": [],
-  "description": "example description",
+  "description": "Example description",
   "schemaVersion": 1,
   "time": {
     "from": "now-6h",
