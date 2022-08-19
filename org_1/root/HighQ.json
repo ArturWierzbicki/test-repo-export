@@ -27,8 +27,8 @@
     {
       "refId": "B",
       "datasource": {
-        "type": "datasource",
-        "uid": "grafana"
+        "type": "testdata",
+        "uid": "nVPrVUQGk"
       }
     }
   ],
