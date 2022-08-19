@@ -40,5 +40,15 @@
       "startValue": 10
     }
   ],
-  "uid": "it/fancy-query.json"
+  "uid": "it/fancy-query.json",
+  "storageOptions": {
+    "path": "it/fancy-query.json",
+    "workflows": [
+      {
+        "value": "pr",
+        "label": "Create pull request",
+        "description": "Create a new upstream pull request"
+      }
+    ]
+  }
 }
