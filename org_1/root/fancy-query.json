@@ -18,21 +18,10 @@
   ],
   "queries": [
     {
-      "channel": "plugin/testdata/random-flakey-stream",
-      "datasource": {
-        "type": "datasource",
-        "uid": "grafana"
-      },
-      "filter": {
-        "fields": [
-          "Time",
-          "Value"
-        ]
-      },
-      "queryType": "measurements",
       "refId": "A",
-      "search": {
-        "query": ""
+      "datasource": {
+        "type": "testdata",
+        "uid": "PD8C576611E62080A"
       }
     },
     {
@@ -50,5 +39,6 @@
       "scenarioId": "random_walk",
       "startValue": 10
     }
-  ]
+  ],
+  "uid": "it/fancy-query.json"
 }
