@@ -25,11 +25,22 @@
       "refId": "A"
     },
     {
+      "refId": "B",
       "datasource": {
-        "type": "loki",
-        "uid": "w-rbuKhnk"
-      },
-      "refId": "B"
+        "type": "testdata",
+        "uid": "PD8C576611E62080A"
+      }
     }
-  ]
+  ],
+  "uid": "it/HighQ.json",
+  "storageOptions": {
+    "path": "it/HighQ.json",
+    "workflows": [
+      {
+        "value": "pr",
+        "label": "Create pull request",
+        "description": "Create a new upstream pull request"
+      }
+    ]
+  }
 }
