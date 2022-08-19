@@ -1,0 +1,54 @@
+{
+  "title": "fancy-query",
+  "tags": [],
+  "description": "example description",
+  "schemaVersion": 1,
+  "time": {
+    "from": "now-6h",
+    "to": "now"
+  },
+  "variables": [
+    {
+      "name": "var1",
+      "type": "text",
+      "current": {
+        "value": "hello world"
+      }
+    }
+  ],
+  "queries": [
+    {
+      "channel": "plugin/testdata/random-flakey-stream",
+      "datasource": {
+        "type": "datasource",
+        "uid": "grafana"
+      },
+      "filter": {
+        "fields": [
+          "Time",
+          "Value"
+        ]
+      },
+      "queryType": "measurements",
+      "refId": "A",
+      "search": {
+        "query": ""
+      }
+    },
+    {
+      "alias": "my-alias",
+      "datasource": {
+        "type": "testdata",
+        "uid": "PD8C576611E62080A"
+      },
+      "drop": 11,
+      "hide": false,
+      "max": 1000,
+      "min": 10,
+      "noise": 5,
+      "refId": "B",
+      "scenarioId": "random_walk",
+      "startValue": 10
+    }
+  ]
+}
