@@ -27,10 +27,20 @@
     {
       "refId": "B",
       "datasource": {
-        "type": "testdata",
-        "uid": "nVPrVUQGk"
+        "type": "datasource",
+        "uid": "grafana"
       }
     }
   ],
-  "uid": "it/HighQ.json"
+  "uid": "it/HighQ.json",
+  "storageOptions": {
+    "path": "it/HighQ.json",
+    "workflows": [
+      {
+        "value": "pr",
+        "label": "Create pull request",
+        "description": "Create a new upstream pull request"
+      }
+    ]
+  }
 }
