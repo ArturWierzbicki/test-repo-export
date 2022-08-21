@@ -1,0 +1,13 @@
+{
+  "title": "HighQ2",
+  "queries": [
+    {
+      "refId": "A",
+      "datasource": {
+        "type": "datasource",
+        "uid": "grafana"
+      },
+      "queryType": "randomWalk"
+    }
+  ]
+}
