@@ -1,0 +1,13 @@
+{
+  "title": "HighQ-pushed",
+  "queries": [
+    {
+      "refId": "A",
+      "datasource": {
+        "type": "datasource",
+        "uid": "grafana"
+      },
+      "queryType": "randomWalk"
+    }
+  ]
+}
