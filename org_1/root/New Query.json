@@ -1,0 +1,13 @@
+{
+  "title": "New Query",
+  "queries": [
+    {
+      "refId": "A",
+      "datasource": {
+        "type": "datasource",
+        "uid": "grafana"
+      },
+      "queryType": "randomWalk"
+    }
+  ]
+}
