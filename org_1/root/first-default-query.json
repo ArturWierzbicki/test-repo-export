@@ -8,6 +8,26 @@
         "uid": "grafana"
       },
       "queryType": "randomWalk"
+    },
+    {
+      "datasource": {
+        "uid": "grafana",
+        "type": "datasource"
+      },
+      "refId": "B",
+      "hide": false,
+      "queryType": "search"
     }
-  ]
+  ],
+  "uid": "it/first-default-query.json",
+  "storageOptions": {
+    "path": "it/first-default-query.json",
+    "workflows": [
+      {
+        "value": "pr",
+        "label": "Create pull request",
+        "description": "Create a new upstream pull request"
+      }
+    ]
+  }
 }
