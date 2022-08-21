@@ -8,6 +8,15 @@
         "uid": "grafana"
       },
       "queryType": "randomWalk"
+    },
+    {
+      "datasource": {
+        "uid": "grafana",
+        "type": "datasource"
+      },
+      "refId": "B",
+      "hide": false,
+      "queryType": "search"
     }
   ]
 }
