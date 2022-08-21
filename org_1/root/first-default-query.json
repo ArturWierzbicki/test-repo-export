@@ -17,6 +17,15 @@
       "refId": "B",
       "hide": false,
       "queryType": "search"
+    },
+    {
+      "datasource": {
+        "uid": "grafana",
+        "type": "datasource"
+      },
+      "refId": "C",
+      "hide": false,
+      "queryType": "randomWalk"
     }
   ]
 }
