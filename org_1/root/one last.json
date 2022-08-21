@@ -1,0 +1,21 @@
+{
+  "title": "one last",
+  "queries": [
+    {
+      "refId": "A",
+      "datasource": {
+        "type": "datasource",
+        "uid": "grafana"
+      },
+      "queryType": "randomWalk"
+    },
+    {
+      "datasource": {
+        "uid": "PD8C576611E62080A",
+        "type": "testdata"
+      },
+      "refId": "B",
+      "hide": false
+    }
+  ]
+}
