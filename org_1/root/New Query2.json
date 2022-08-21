@@ -1,0 +1,12 @@
+{
+  "title": "New Query2",
+  "queries": [
+    {
+      "refId": "A",
+      "datasource": {
+        "type": "testdata",
+        "uid": "nVPrVUQGk"
+      }
+    }
+  ]
+}
