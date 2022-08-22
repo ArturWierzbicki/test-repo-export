@@ -16,6 +16,40 @@
       },
       "refId": "B",
       "hide": false
+    },
+    {
+      "refId": "C",
+      "datasource": {
+        "type": "__expr__",
+        "uid": "__expr__",
+        "name": "Expression"
+      },
+      "type": "classic_conditions",
+      "hide": false,
+      "conditions": [
+        {
+          "type": "query",
+          "reducer": {
+            "params": [],
+            "type": "avg"
+          },
+          "operator": {
+            "type": "and"
+          },
+          "query": {
+            "params": [
+              "A"
+            ]
+          },
+          "evaluator": {
+            "params": [
+              0,
+              0
+            ],
+            "type": "gt"
+          }
+        }
+      ]
     }
   ]
 }
