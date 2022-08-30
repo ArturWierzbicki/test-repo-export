@@ -4,10 +4,9 @@
     {
       "refId": "A",
       "datasource": {
-        "type": "datasource",
-        "uid": "grafana"
-      },
-      "queryType": "randomWalk"
+        "type": "graphite",
+        "uid": "P6798F81BB5440721"
+      }
     }
   ]
 }
