@@ -2,12 +2,25 @@
   "title": "HighQ-pushed",
   "queries": [
     {
+      "queryMode": "Metrics",
+      "namespace": "",
+      "metricName": "",
+      "expression": "",
+      "dimensions": {},
+      "region": "default",
+      "id": "",
+      "statistic": "Average",
+      "period": "",
+      "metricQueryType": 0,
+      "metricEditorMode": 0,
+      "sqlExpression": "",
+      "matchExact": true,
       "refId": "A",
       "datasource": {
-        "type": "datasource",
-        "uid": "grafana"
+        "type": "cloudwatch",
+        "uid": "GinE8aK7k"
       },
-      "queryType": "randomWalk"
+      "label": ""
     }
   ]
 }
